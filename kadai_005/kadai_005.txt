@@ -1,0 +1,16 @@
+PS D:\waek\Github\git_tutorial> cd D:\waek\git_challenge
+PS D:\waek\git_challenge> git init
+Initialized empty Git repository in D:/waek/git_challenge/.git/
+PS D:\waek\git_challenge> git add hello_world.txt
+PS D:\waek\git_challenge> git add D:\waek\git_challenge
+PS D:\waek\git_challenge> git commit -m "hello_world.txt"
+[main (root-commit) f19de8a] hello_world.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS D:\waek\git_challenge> git add hello_world.txt        
+PS D:\waek\git_challenge> git commit -m "日本語訳を追加" 
+[main 395afb1] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS D:\waek\git_challenge> git log --oneline
+395afb1 (HEAD -> main) 日本語訳を追加
+f19de8a hello_world.txt
